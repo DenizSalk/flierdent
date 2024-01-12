@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">FlierDent</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="/">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Panel</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="/">Panel</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/randevu">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Randevu</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="/randevu">Randevu</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="/record_search">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Kayıt</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="/record_search">Kayıt</a></li>
+          <li><a href="/record_search">Kayıt Ara</a></li>
+          <li><a href="/kayit_olustur">Kayıt Oluştur</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/hizmetler">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Finansal</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="/hizmetler">Finansal</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">Geçmiş</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Geçmiş</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Ayarlar</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Ayarlar</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Kullanıcı Adı</div>
+        <div class="job">Rol</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Kayıt Oluştur</span>
+      <span class="backbutton"><button onclick="goBack()">&lt; geri</button></span>
+    </div>
+    <div class="form_wrapper">
+      <form method="post" action="{{ url_for('record_create') }}">
+          <div class="item_f">
+            <label for="name">İsim:</label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="item_f">
+            <label for="surname">Soy İsim:</label>
+            <input type="text" name="surname" required>
+          </div>
+          <div class="item_f">
+            <label for="birth_date">Doğum Tarihi:</label>
+            <input type="date" name="birth_date" required>
+          </div>
+          <div class="item_f">
+            <label for="gender">Cinsiyet:</label>
+            <select name="gender" required>
+                <option value="Female">Kadın</option>
+                <option value="Male">Erkek</option>
+            </select>
+          </div>
+          <div class="item_f">
+            <label for="address">Adres:</label>
+            <input type="text" name="address" required>
+          </div>
+          <div class="item_f item_f_kayıt">
+            <label for="kayıt">Kaydı Açan:</label>
+            <div class="kayitbox">
+              <select class="kayıt" name="kayit">
+                <option class="kayıt" id="reveal" value="personel">Personel</option>
+                <option class="kayıt" id="reveal"  value="doktor">Doktor</option>
+              </select>
+              <input class="kayıttext" name="kayitname" type="text">
+            </div>
+          </div>
+          <div class="item_f">
+            <label for="uyruk">Uyruk:</label>
+            <select name="uyruk">
+              <option value="TR">TÜRKİYE</option>
+              <option value="AF">AFGANİSTAN</option>
+              <option value="DE">ALMANYA</option>
+              <option value="US">AMERİKA BİRLEŞİ</option>
+              <option value="UM">AMERİKAN MİNOR</option>
+              <option value="AS">AMERİKAN SAMOA</option>
+              <option value="AD">ANDORA</option>
+              <option value="AO">ANGOLA</option>
+              <option value="AI">ANGUİLLA</option>
+              <option value="AQ">ANTARTİKA</option>
+              <option value="AG">ANTİGUA VE BARB</option>
+              <option value="AR">ARJANTİN</option>
+              <option value="AL">ARNAVUTLUK</option>
+              <option value="AW">ARUBA</option>
+              <option value="AU">AVUSTRALYA</option>
+              <option value="AT">AVUSTURYA</option>
+              <option value="AZ">AZERBAYCAN</option>
+              <option value="BS">BAHAMALAR</option>
+              <option value="BH">BAHREYN</option>
+              <option value="BD">BANGLADEŞ</option>
+              <option value="BB">BARBADOS</option>
+              <option value="EH">BATI SAHARA</option>
+              <option value="WS">BATI SAMOA</option>
+              <option value="VG">BATI VİRGİN ADA</option>
+              <option value="BY">BELARUS</option>
+              <option value="BE">BELÇİKA</option>
+              <option value="BZ">BELİZE</option>
+              <option value="BJ">BENİN</option>
+              <option value="BM">BERMUDA</option>
+              <option value="BT">BHUTAN</option>
+              <option value="AE">BİRLEŞİK ARAP E</option>
+              <option value="BO">BOLİVYA</option>
+              <option value="BA">BOSNA HERSEK</option>
+              <option value="BW">BOTSWANA</option>
+              <option value="BV">BOUVET ADALARI</option>
+              <option value="BR">BREZİLYA</option>
+              <option value="IO">BRİTANYA HİNT A</option>
+              <option value="BN">BRUNEİ DARUSSAL</option>
+              <option value="BG">BULGARİSTAN</option>
+              <option value="BF">BURKİNA FASO</option>
+              <option value="BI">BURUNDİ</option>
+              <option value="CV">CAP VERDE</option>
+              <option value="GI">CEBELİTARIK</option>
+              <option value="DZ">CEZAYİR</option>
+              <option value="CX">CHRİSTMAS ADALA</option>
+              <option value="DJ">CİBUTİ</option>
+              <option value="CC">COCOS (KEELİNG)</option>
+              <option value="CK">COOK ADALARI</option>
+              <option value="CW">CURACAO</option>
+              <option value="TD">ÇAD</option>
+              <option value="KY">ÇAYMAN ADALARI</option>
+              <option value="CEC">ÇEÇENİSTAN</option>
+              <option value="CZ">ÇEK CUMHURİYETİ</option>
+              <option value="CN">ÇİN</option>
+              <option value="DGT">DAĞISTAN</option>
+              <option value="DK">DANİMARKA</option>
+              <option value="DM">DOMİNİK</option>
+              <option value="DO">DOMİNİK CUMHURİ</option>
+              <option value="EC">EKVADOR</option>
+              <option value="GQ">EKVATORAL GİNE</option>
+              <option value="SV">EL SALVADOR</option>
+              <option value="ID">ENDONEZYA</option>
+              <option value="ER">ERİTREA</option>
+              <option value="AM">ERMENİSTAN</option>
+              <option value="EE">ESTONYA</option>
+              <option value="ET">ETİYOPYA</option>
+              <option value="FK">FALKLAND ADALAR</option>
+              <option value="FO">FAROE ADALARI</option>
+              <option value="MA">FAS</option>
+              <option value="FJ">FİJİ</option>
+              <option value="CI">FİLDİŞİ SAHİLİ</option>
+              <option value="PH">FİLİPİNLER</option>
+              <option value="PS">FİLİSTİN BÖLGES</option>
+              <option value="FI">FİNLANDİYA</option>
+              <option value="FR">FRANSA</option>
+              <option value="GF">FRANSIZ GUYANAS</option>
+              <option value="PF">FRANSIZ POLONEZ</option>
+              <option value="GA">GABON</option>
+              <option value="GM">GAMBİYA</option>
+              <option value="GH">GANA</option>
+              <option value="GN">GİNE</option>
+              <option value="GW">GİNE-BİSSA</option>
+              <option value="GD">GRENADA</option>
+              <option value="GL">GRÖNLAND</option>
+              <option value="GP">GUADELOUPE</option>
+              <option value="GT">GUATEMALA</option>
+              <option value="GG">GUERNSEY, C.I.</option>
+              <option value="GU">GUYAM</option>
+              <option value="GY">GUYANA</option>
+              <option value="ZA">GÜNEY AFRİKA</option>
+              <option value="TF">GÜNEY FRANSA BÖ</option>
+              <option value="KR">GÜNEY KORE</option>
+              <option value="GS">GÜNEY SANDVİÇ A</option>
+              <option value="GE">GÜRCİSTAN</option>
+              <option value="HT">HAİTİ</option>
+              <option value="HM">HEARD VE MCDONA</option>
+              <option value="HR">HIRVATİSTAN</option>
+              <option value="IN">HİNDİSTAN</option>
+              <option value="NL">HOLLANDA</option>
+              <option value="AN">HOLLANDA ANTİLL</option>
+              <option value="HN">HONDURAS</option>
+              <option value="HK">HONG KONG</option>
+              <option value="IQ">IRAK</option>
+              <option value="ISE">ISKAT EDİLEN</option>
+              <option value="IM">ISLE OF MAN</option>
+              <option value="GB">İNGİLTERE</option>
+              <option value="IR">İRAN</option>
+              <option value="IE">İRLANDA</option>
+              <option value="CTL">İSKOÇYA</option>
+              <option value="ES">İSPANYA</option>
+              <option value="IL">İSRAİL</option>
+              <option value="SE">İSVEÇ</option>
+              <option value="CH">İSVİÇRE</option>
+              <option value="IT">İTALYA</option>
+              <option value="IS">İZLANDA</option>
+              <option value="JM">JAMAİKA</option>
+              <option value="JP">JAPONYA</option>
+              <option value="JE">JERSEY</option>
+              <option value="KH">KAMBOÇYA</option>
+              <option value="CM">KAMERUN</option>
+              <option value="CA">KANADA</option>
+              <option value="ME">KARADAG</option>
+              <option value="QA">KATAR</option>
+              <option value="KZ">KAZAKİSTAN</option>
+              <option value="KE">KENYA</option>
+              <option value="CY">KIBRIS</option>
+              <option value="KG">KIRGIZİSTAN</option>
+              <option value="KI">KİRİBATİ</option>
+              <option value="CO">KOLOMBİYA</option>
+              <option value="KM">KOMOROS</option>
+              <option value="CG">KONGO</option>
+              <option value="CD">KONGO CUMHURİYE</option>
+              <option value="KSV">KOSOVA</option>
+              <option value="CR">KOSTARİKA</option>
+              <option value="KW">KUVEYT</option>
+              <option value="NCY">KUZEY KIBRIS TÜ</option>
+              <option value="KP">KUZEY KORE</option>
+              <option value="MP">KUZEY MARİANA A</option>
+              <option value="CU">KÜBA</option>
+              <option value="LA">LAO</option>
+              <option value="LS">LESOTHO</option>
+              <option value="LV">LETONYA</option>
+              <option value="LR">LİBERYA</option>
+              <option value="LY">LİBYA</option>
+              <option value="LI">LİECHTENSTEİN</option>
+              <option value="LT">LİTVANYA</option>
+              <option value="LB">LÜBNAN</option>
+              <option value="LU">LÜKSEMBURG</option>
+              <option value="HU">MACARİSTAN</option>
+              <option value="MO">MACAU</option>
+              <option value="MG">MADAGASKAR</option>
+              <option value="MK">MAKEDONYA</option>
+              <option value="MW">MALAWİ</option>
+              <option value="MV">MALDİVLER</option>
+              <option value="MY">MALEZYA</option>
+              <option value="ML">MALİ</option>
+              <option value="MT">MALTA</option>
+              <option value="MH">MARSHALL ADALAR</option>
+              <option value="MQ">MARTİNİQUE</option>
+              <option value="MU">MAURİTİUS</option>
+              <option value="YT">MAYOTTE</option>
+              <option value="MX">MEKSİKA</option>
+              <option value="EG">MISIR</option>
+              <option value="FM">MİKRONESYA</option>
+              <option value="MD">MOLDOVYA</option>
+              <option value="MC">MONAKO</option>
+              <option value="MN">MONGOLYA</option>
+              <option value="MS">MONTSERRAT</option>
+              <option value="MR">MORİTANYA</option>
+              <option value="MZ">MOZAMBİK</option>
+              <option value="MM">MYANMAR</option>
+              <option value="NA">NAMİBYA</option>
+              <option value="NR">NAURU</option>
+              <option value="NP">NEPAL</option>
+              <option value="NE">NİJER</option>
+              <option value="NG">NİJERYA</option>
+              <option value="NI">NİKARAGUA</option>
+              <option value="NU">NİUE</option>
+              <option value="NF">NORFOLK ADALARI</option>
+              <option value="NO">NORVEÇ</option>
+              <option value="CF">ORTA AFRİKA CUM</option>
+              <option value="UZ">ÖZBEKİSTAN</option>
+              <option value="PK">PAKİSTAN</option>
+              <option value="PW">PALAU</option>
+              <option value="PA">PANAMA</option>
+              <option value="PG">PAPUA YENİ GİNE</option>
+              <option value="PY">PARAGUAY</option>
+              <option value="PE">PERU</option>
+              <option value="PN">PİTCAİRN ADALAR</option>
+              <option value="PL">POLONYA</option>
+              <option value="PT">PORTEKİZ</option>
+              <option value="PR">PORTO RİKO</option>
+              <option value="RE">REUNİON ADALARI</option>
+              <option value="RO">ROMANYA</option>
+              <option value="RU">RUSYA FEDERASYO</option>
+              <option value="RW">RWANDA</option>
+              <option value="KN">SAİNT KİTTS VE</option>
+              <option value="LC">SAİNT LUCİA</option>
+              <option value="VC">SAİNT VİNCENT V</option>
+              <option value="SM">SAN MARİNO</option>
+              <option value="ST">SAO TOME VE PRİ</option>
+              <option value="SN">SENEGAL</option>
+              <option value="SC">SEYŞEL ADALARI</option>
+              <option value="RS">SIRBİSTAN</option>
+              <option value="SL">SİERRA LEONE</option>
+              <option value="SG">SİNGAPUR</option>
+              <option value="SK">SLOVAKYA CUMHUR</option>
+              <option value="SI">SLOVENYA</option>
+              <option value="SB">SOLOMON ADALARI</option>
+              <option value="SO">SOMALİ</option>
+              <option value="LK">SRİ LANKA</option>
+              <option value="SH">ST. HELENA</option>
+              <option value="PM">ST. PİERRE VE M</option>
+              <option value="SD">SUDAN</option>
+              <option value="SR">SURİNAM</option>
+              <option value="SY">SURİYE</option>
+              <option value="SA">SUUDİ ARABİSTAN</option>
+              <option value="SJ">SVALBARD VE JAN</option>
+              <option value="SZ">SWAZİLAND</option>
+              <option value="CL">ŞİLİ</option>
+              <option value="TJ">TACİKİSTAN</option>
+              <option value="TZ">TANZANYA</option>
+              <option value="TH">TAYLAND</option>
+              <option value="TW">TAYVAN</option>
+              <option value="TG">TOGO</option>
+              <option value="TK">TOKELAU</option>
+              <option value="TO">TONGA</option>
+              <option value="TT">TRİNİDAD VE TOB</option>
+              <option value="TN">TUNUS</option>
+              <option value="TC">TURKS &amp; CAICOS</option>
+              <option value="TV">TUVALU</option>
+              <option value="TST">TÜRKİSTAN</option>
+              <option value="TM">TÜRKMENİSTAN</option>
+              <option value="UG">UGANDA</option>
+              <option value="UA">UKRAYNA</option>
+              <option value="OM">UMMAN</option>
+              <option value="UY">URUGUAY</option>
+              <option value="JO">ÜRDÜN</option>
+              <option value="VU">VANUATU</option>
+              <option value="VA">VATİKAN</option>
+              <option value="VE">VENEZUELA</option>
+              <option value="VN">VİETNAM</option>
+              <option value="VI">VİRGİN ADALARI</option>
+              <option value="WF">WALLİS VE FUTUN</option>
+              <option value="YE">YEMEN</option>
+              <option value="NC">YENİ KALEDONYA</option>
+              <option value="NZ">YENİ ZELANDA</option>
+              <option value="GR">YUNANİSTAN</option>
+              <option value="ZM">ZAMBİA</option>
+              <option value="ZW">ZİMBABVE</option>
+            </select>
+          </div>
+          <div class="item_f">
+            <label for="phone">Telefon:</label>
+            <input type="tel" name="phone" required>
+          </div>
+          <div class="item_f">
+            <label for="email">E-Posta:</label>
+            <input type="email" name="email" required>
+          </div>
+          <div class="item_f">
+            <label for="tckimlik">TC Kimlik:</label>
+            <input type="text" name="tckimlik" required>
+          </div>
+          <div class="item_f itemf_button">
+          <input type="submit" value="Oluştur">
+        </div>
+      </form>
+    </div>
+  </section>
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  function goBack() {
+    window.history.back();
+  }
+  </script>
+</body>
+<style>
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 260px;
+  background: #11101d;
+  z-index: 100;
+  transition: all 0.5s ease;
+}
+.sidebar.close{
+  width: 78px;
+}
+.sidebar .logo-details{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sidebar .logo-details i{
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  min-width: 78px;
+  text-align: center;
+  line-height: 50px;
+}
+.sidebar .logo-details .logo_name{
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s ease;
+  transition-delay: 0.1s;
+}
+.sidebar.close .logo-details .logo_name{
+  transition-delay: 0s;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar .nav-links{
+  height: 100%;
+  padding: 30px 0 150px 0;
+  overflow: auto;
+}
+.sidebar.close .nav-links{
+  overflow: visible;
+}
+.sidebar .nav-links::-webkit-scrollbar{
+  display: none;
+}
+.sidebar .nav-links li{
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+}
+.sidebar .nav-links li:hover{
+  background: #1d1b31;
+}
+.sidebar .nav-links li .iocn-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar.close .nav-links li .iocn-link{
+  display: block
+}
+.sidebar .nav-links li i{
+  height: 50px;
+  min-width: 78px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sidebar .nav-links li.showMenu i.arrow{
+  transform: rotate(-180deg);
+}
+.sidebar.close .nav-links i.arrow{
+  display: none;
+}
+.sidebar .nav-links li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.sidebar .nav-links li a .link_name{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.sidebar.close .nav-links li a .link_name{
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar .nav-links li .sub-menu{
+  padding: 6px 6px 14px 80px;
+  margin-top: -10px;
+  background: #1d1b31;
+  display: none;
+}
+.sidebar .nav-links li.showMenu .sub-menu{
+  display: block;
+}
+.sidebar .nav-links li .sub-menu a{
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 0;
+  white-space: nowrap;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+.sidebar .nav-links li .sub-menu a:hover{
+  opacity: 1;
+}
+.sidebar.close .nav-links li .sub-menu{
+  position: absolute;
+  left: 100%;
+  top: -10px;
+  margin-top: 0;
+  padding: 10px 20px;
+  border-radius: 0 6px 6px 0;
+  opacity: 0;
+  display: block;
+  pointer-events: none;
+  transition: 0s;
+}
+.sidebar.close .nav-links li:hover .sub-menu{
+  top: 0;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+}
+.sidebar .nav-links li .sub-menu .link_name{
+  display: none;
+}
+.sidebar.close .nav-links li .sub-menu .link_name{
+  font-size: 18px;
+  opacity: 1;
+  display: block;
+}
+.sidebar .nav-links li .sub-menu.blank{
+  opacity: 1;
+  pointer-events: auto;
+  padding: 3px 20px 6px 16px;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar .nav-links li:hover .sub-menu.blank{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.one {
+  width: 100%;
+  margin-left: 10%;
+  background-color: black;
+  height: 400px;
+}
+
+.sidebar .profile-details{
+  position: fixed;
+  bottom: 0;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1d1b31;
+  padding: 12px 0;
+  transition: all 0.5s ease;
+}
+.sidebar.close .profile-details{
+  background: none;
+}
+.sidebar.close .profile-details{
+  width: 78px;
+}
+.sidebar .profile-details .profile-content{
+  display: flex;
+  align-items: center;
+}
+.sidebar .profile-details img{
+  height: 52px;
+  width: 52px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 0 14px 0 12px;
+  background: #1d1b31;
+  transition: all 0.5s ease;
+}
+.sidebar.close .profile-details img{
+  padding: 10px;
+}
+.sidebar .profile-details .profile_name,
+.sidebar .profile-details .job{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.sidebar.close .profile-details i,
+.sidebar.close .profile-details .profile_name,
+.sidebar.close .profile-details .job{
+  display: none;
+}
+.sidebar .profile-details .job{
+  font-size: 12px;
+}
+.home-section{
+  position: relative;
+  background: #E4E9F7;
+  height: 100vh;
+  left: 260px;
+  width: calc(100% - 260px);
+  transition: all 0.5s ease;
+  background-image: url('{{ url_for('static', filename='img/login-back3.png') }}')!important;
+}
+.sidebar.close ~ .home-section{
+  left: 78px;
+  width: calc(100% - 78px);
+}
+.home-section .home-content{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.home-section .home-content .bx-menu,
+.home-section .home-content .text{
+  color: #11101d;
+  font-size: 35px;
+}
+.home-section .home-content .bx-menu{
+  margin: 0 15px;
+  cursor: pointer;
+}
+.home-section .home-content .text{
+  font-size: 26px;
+  font-weight: 600;
+}
+@media (max-width: 420px) {
+  .sidebar.close .nav-links li .sub-menu{
+    display: none;
+  }
+}
+.form_wrapper {
+  padding: 1.5rem;  
+}
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2vh;
+    background: #ffffffad;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    padding-bottom: 4vh;
+}
+.item_f {
+  display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin-top: 1vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+input[type="text"] {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input[type="date"] {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 5vh;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input[type="email"] {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    height: 5vh;
+    padding-left: 1rem;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input[type="tel"] {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+select {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    height: 5vh;
+    padding-right: 1rem;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input[type="submit"] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    background-color: #11101d;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    position: relative;
+    width: 100%;
+    margin-top: -3vh;
+    margin-bottom: 3vh;
+}
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.item_f.itemf_button {
+    padding-top: 1.5vh;
+}
+::before {
+    color: white!important;
+    fill: white;
+}
+span.text {
+    color: white!important;
+}
+span.backbutton {
+    position: absolute;
+    right: 1.5rem;
+}
+span.backbutton button {
+    border: none;
+    background: #11101d;
+    color: white;
+    padding-top: 1.5vh;
+    border-radius: 1rem;
+    padding-bottom: 1.5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;    cursor: pointer;
+}
+select.kayıt {
+    width: 25%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input.kayıttext {
+    width: 75%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.kayitbox {
+    width: 100%;
+    display: flex;
+}
+</style>
+</html>

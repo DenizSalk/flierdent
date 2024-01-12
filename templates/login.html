@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper wrapper_login">
+        <div class="login_left">
+            <h2>Giriş Yap</h2>
+            <h4>HESABINIZ YOK MU? <a href=""><strong>ÜYE OL</strong></a></h4>
+            <div class="divider"></div>
+            <p>Flier Dent klinik yönetim sistemi ile, müşteri bilgilerinizi local olarak güvenle depolayabilir ve dosya-ödeme-randevu takibi yapabilirsiniz</p>
+            <div class="button button_learn">İNCELE</div>
+        </div>
+        <div class="login_right">
+            <form method="post" action="/login">
+                <h4>Giriş Yap</h4>
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <input type="submit" value="Giriş Yap">
+            </form>
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url('{{ url_for('static', filename='img/login-back3.png') }}');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family:Montserrat;
+    }
+    .wrapper.wrapper_login {
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .login_left {
+        width: 50%;
+    }
+    .login_right {
+        width: 50%;
+    }
+    .login_left {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 4vh;
+        line-height: 0vh;
+    }
+    h4 {
+        font-size: 1.5vh;
+        line-height: 0vh;
+        font-weight: 600;
+    }
+    h4 a {
+        color: white;
+    }
+    .divider {
+        margin-top: 5vh;
+        width: 5vh;
+        height: 0.3vh;
+        background-color: white;
+        width: 30%;
+    }
+    p {
+        font-weight: 500;
+    }
+    .login_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form {
+        padding: 1rem;
+        background-color: #ffffff26;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    input {
+        border: none;
+        border-radius: 1rem;
+        background-color: #ffffffcc;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        color: black;
+    }
+    label {
+        padding-bottom: 0.5vh;
+    }
+    form h4{
+        font-size: 2rem;
+    }
+    span.backbutton {
+    position: absolute;
+    right: 1.5rem;
+}
+span.backbutton button {
+    border: none;
+    background: #11101d;
+    color: white;
+    padding-top: 1.5vh;
+    border-radius: 1rem;
+    padding-bottom: 1.5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;    cursor: pointer;
+}
+</style>
+</html>

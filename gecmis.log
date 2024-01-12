@@ -1,0 +1,505 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:30] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:33] "GET /kayit_olustur HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:33] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:47] "[32mPOST /kayit_olustur HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:25:47] "GET /record_detail?th_id=68965c63-5361-4b2a-9e01-baf29158b85b&create=True&name=Deniz&surname=Şalk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:29:48] "GET /record_detail?th_id=68965c63-5361-4b2a-9e01-baf29158b85b&create=True&name=Deniz&surname=\u015ealk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:29:48] "GET /record_detail?th_id=68965c63-5361-4b2a-9e01-baf29158b85b&create=True&name=Deniz&surname=\u015ealk HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masa�st�\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:30:28] "GET /record_detail?th_id=68965c63-5361-4b2a-9e01-baf29158b85b&create=True&name=Deniz&surname=Şalk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:30:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:30:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2023 00:31:25] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 88, in home
+    return render_template('dashboard.html', apodata=apodata, records_gen_count=records_gen_count, records_th_count=records_th_count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 151, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 88, in home
+    return render_template('dashboard.html', apodata=apodata, records_gen_count=records_gen_count, records_th_count=records_th_count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 151, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 88, in home
+    return render_template('dashboard.html', apodata=apodata, records_gen_count=records_gen_count, records_th_count=records_th_count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 151, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard.html
+ERROR:main:Exception on /profilepage [GET]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 259, in profile_page
+    return render_template('profile.html', th_id=th_id, name=name, surname=surname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\templates\profile.html", line 347, in top-level template code
+    var event_data = {{ apodata | tojson | safe }};
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\filters.py", line 1688, in do_tojson
+    return htmlsafe_json_dumps(value, dumps=dumps, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\utils.py", line 658, in htmlsafe_json_dumps
+    dumps(obj, **kwargs)
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type Undefined is not JSON serializable
+ERROR:main:Exception on /profilepage [GET]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 256, in profile_page
+    return render_template('profile.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\templates\profile.html", line 347, in top-level template code
+    var event_data = {{ apodata | tojson | safe }};
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\filters.py", line 1688, in do_tojson
+    return htmlsafe_json_dumps(value, dumps=dumps, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\utils.py", line 658, in htmlsafe_json_dumps
+    dumps(obj, **kwargs)
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type Undefined is not JSON serializable
+ERROR:main:Exception on /record_edit/22 [POST]
+Traceback (most recent call last):
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deniz\OneDrive\Masaüstü\flierdent\main.py", line 72, in record_edit
+    update_record_gen(th_id, **data)
+TypeError: update_record_gen() got an unexpected keyword argument 'kayit'
+INFO:root:admin kullanıcısıtesttest kişisinin kaydını oluşturdu. Girilen Kayıt:doktortest
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:17] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:18] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:18] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:24] "GET /kayit_olustur HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:24] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:47] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:48] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:36:48] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:37:19] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:37:19] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:38:00] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:38:00] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:38:25] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:38:25] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:29] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:29] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:30] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:30] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:37] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:39:37] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:40:01] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:40:01] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:41:44] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:41:44] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:43:09] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:43:09] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:43:55] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:43:55] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:44:28] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:44:28] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:17] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:17] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:18] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:18] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:56] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:45:56] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:46:03] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:46:03] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:46:48] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:46:48] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:47:41] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:47:41] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:48:19] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:48:19] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:48:52] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:48:52] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:06] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:08] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:08] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:09] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:10] "GET /search_record_detail?th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:13] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:16] "GET /record_detail?name=Deniz&surname=Şalk&th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:17] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:53:19] "GET /search_record_detail?th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:54:18] "GET /search_record_detail?th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:54:19] "GET /search_record_detail?th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:54:20] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:54:21] "GET /record_edit/6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 15:54:22] "[36mGET /static/img/login-back3.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:02:08] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:02:10] "GET /record_detail?name=Deniz&surname=Şalk&th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:39:14] "GET /record_detail?name=Deniz&surname=Şalk&th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:45:52] "GET /record_detail?name=Deniz&surname=Şalk&th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:34] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:35] "GET /search_record_detail?th_id=a3d81f11-0a00-4119-aadf-9d6ebf6e2c08 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:37] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:38] "GET /search_record_detail?th_id=868b9026-1ef8-47f4-bb32-5ee5f50c02de HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:39] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:41] "GET /search_record_detail?th_id=e214d4d1-d1f3-416a-87db-67d996b4b8c3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:42] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:43] "GET /search_record_detail?th_id=f5fc1ce2-9461-4e7b-8f8f-cd1925141103 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:45] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 16:48:46] "GET /search_record_detail?th_id=c75b9580-77d0-4fdc-816c-2a5643518872 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:15:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:15:58] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:15:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:16:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:16:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:16:04] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:16:05] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:17:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:17:29] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:18:47] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:18:49] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:18:51] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:18:53] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:18:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:43:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:43:23] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:43:29] "[32mPOST /add_event HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:43:29] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:47:54] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:47:55] "[33mGET /hizmetler HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:08] "[33mGET /hizmetler HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:10] "[33mGET /hizmetler HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:14] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:22] "[33mGET /hizmetler HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:39] "[35m[1mGET /hizmetler HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:39] "GET /hizmetler?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:39] "GET /hizmetler?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:39] "GET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:48:39] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:49:16] "GET /hizmetler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:49:37] "GET /hizmetler HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:31] "[35m[1mGET /hizmetler HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:31] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:31] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:32] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:32] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\deniz\\OneDrive\\Masaüstü\\flierdent\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:29] "[35m[1mGET /hizmetler HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:29] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:29] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:30] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:30] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:52] "[35m[1mGET /hizmetler HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:52] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:52] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:53] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:53] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:54] "[35m[1mGET /hizmetler HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:54] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:54] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:54] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 22:01:55] "[36mGET /hizmetler?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-020-880
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:29] "GET /kayit_olustur HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:29] "GET /static/img/login-back3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:31] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:33] "GET /randevu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:33] "GET /record_search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 16:40:35] "GET /record_detail?name=Deniz&surname=Şalk&th_id=6622371a-f707-440d-a982-a065e7e83961 HTTP/1.1" 200 -
